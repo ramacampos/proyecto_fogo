@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="../img/logo.png">
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <picture>
+                <img class="menu_logo" src="../img/logo.png" alt="logo fogo" width="20%">
+            </picture>
+            <ul class="menu">
+                <li class="menu__item">
+                    <a class="menu__link" href="../index.html">Home</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="./menu.html">Menú</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="./nosotros.html">Nosotros</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link menu__link--active" href="./reservas.html">Reservas</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="./locales.html">Locales</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section id="reserva">
+        <form class="reserva__form" action="" method="get">
+            <div class="reserva__box">
+                <input class="reserva__form__text" type="text" name="Nombre completo" placeholder="Nombre completo" required>
+            </div>
+            <div class="reserva__box">
+                <input class="reserva__form__text" type="text" name="email" placeholder="Mail" required>
+            </div>
+            <div class="reserva__box">
+                <input class="reserva__form__text" type="number" name="Celular" placeholder="Celular" required>
+            </div>
+            <div class="reserva__box">
+                <input class="reserva__form__text" type="text" name="Local" placeholder="Local" required>
+            </div>
+            <div class="reserva__box">
+                <input class="reserva__form__text" type="number" name="Cantidad" placeholder="Cantidad de personas" required>
+            </div>
+            <div class="reserva__box">
+                <input class="reserva__form__text" type="date" name="Fecha" required>
+            </div>
+                <input class="reserva__form__text" type="datetime" name="Hora" placeholder="Hora" required>
+            <div class="reserva__box">
+                <input class="reserva__form__btn" type="submit" name="Enviar">
+            </div>
+        </form>
+    </section>
+    <footer>
+        <ul class="footer">
+            <li class="footer__title">FOGO
+                <p class="footer__text">Av. Pres. F. Alcorta 3351</p>
+                <p class="footer__text">Av. del Libertador 1031</p>
+            </li>
+            <li class="footer__title">CONTACTO
+                <p class="footer__text">(+54) 011 4631-4984</p>
+                <p class="footer__text">(+54) 011 4634-5431</p>
+            </li>
+            <li class="footer__title">REDES SOCIALES
+                <p class="footer__text">@fogo.ba</p>
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>

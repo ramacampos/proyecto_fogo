@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="./img/logo.png">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body class="body__home__grid">
+    <header class="header__grid">
+        <nav>
+            <picture>
+                <img class="menu_logo" src="./img/logo.png" alt="logo fogo" width="20%">
+            </picture>
+            <ul class="menu">
+                <li class="menu__item">
+                    <a class="menu__link menu__link--active" href="./index.html">Home</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="./views/menu.html">Menú</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="./views/nosotros.html">Nosotros</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="./views/reservas.html">Reservas</a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="./views/locales.html">Locales</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section id="presentation">
+        <div class="parallax">
+            <h1 class="parallax__text">FOGO Restaurante</h1>
+            <h2 class="parallax__text">Calidad Argentina</h2>
+        </div>
+
+    </section>
+    <section id="recomendation">
+        <h3 class="recomendation__title">NUESTROS PLATOS</h3>
+        <h4 class="recomendation__title">Recomendaciones de la casa</h4>
+        <ul class="recomendation">
+            <div class="recomendation__box">
+                <li class="recomendation__item">ENTRADA</li>
+                <img class="recomendation__img" src="./img/provoleta.jpg" alt="provoleta">
+            </div>
+            <div class="recomendation__box">
+                <li class="recomendation__item">PLATO PRINCIPAL</li>
+                <img class="recomendation__img" src="./img/tomahawk.jpg" alt="tomahawk">
+            </div>
+            <div class="recomendation__box">
+                <li class="recomendation__item">POSTRE</li>
+                <img class="recomendation__img" src="./img/flan.jpg" alt="flan">
+            </div>
+        </ul>
+    </section>
+    <section id="spot">
+        <iframe class="spot__video" width="100%" height="720" src="https://www.youtube.com/embed/lKsEB2X9L4o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+    <section id="contacto">
+        <h4 class="contacto__title">CONTACTO</h4>
+        <div>
+            <form class="form" action="" method="get">
+                <div class="form__box">
+                    <input class="form__text" type="text" name="Nombre completo" placeholder="Nombre completo" required>
+                </div>
+                <div class="form__box">
+                    <input class="form__text" type="text" name="email" placeholder="Mail" required>
+                </div>
+                <div class="form__box">
+                    <input class="form__text" type="text" name="Asunto" placeholder="Asunto" required>
+                </div>
+                <div class="form__box--message">
+                    <input class="form__text--message" type="text" name="Mensaje" placeholder="Mensaje" required>
+                </div>
+                <div class="form__box">
+                    <input class="form__btn" type="submit" name="ENVIAR">
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <ul class="footer">
+            <li class="footer__title">FOGO
+                <p class="footer__text">Av. Pres. F. Alcorta 3351</p>
+                <p class="footer__text">Av. del Libertador 1031</p>
+            </li>
+            <li class="footer__title">CONTACTO
+                <p class="footer__text">(+54) 011 4631-4984</p>
+                <p class="footer__text">(+54) 011 4634-5431</p>
+            </li>
+            <li class="footer__title">REDES SOCIALES
+                <p class="footer__text">@fogo.ba</p>
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>
