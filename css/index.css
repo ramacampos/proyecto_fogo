@@ -114,6 +114,7 @@ a:hover{
 
 .recomendation__title{
     text-align: center;
+    padding-bottom: 0.3rem;
 }
 
 .recomendation__box{
@@ -124,10 +125,17 @@ a:hover{
 .recomendation__item{
     list-style-type:none;
     text-align: center;
+    padding-bottom: 0.5rem;
+    font-size: 18px;
 }
 
 .recomendation__img{
     width: 100%;
+    transition: 0.4s;
+}
+
+.recomendation__img:hover{
+    transform: scale(1.07);
 }
 
 #spot{
@@ -255,6 +263,17 @@ footer{
 
 .entradas__img{
     width: 280px;
+    transition: 0.45s;
+}
+
+.entradas__img:hover{
+    transform: scale(1.1);
+}
+
+.entradas__text{
+    padding-top: 0.4rem;
+    font-size: 16px;
+    text-transform: uppercase;
 }
 
 #principales{
@@ -292,6 +311,17 @@ footer{
 
 .principales__img{
     width: 280px;
+    transition: 0.45s;
+}
+
+.principales__img:hover{
+    transform: scale(1.1);
+}
+
+.principales__text{
+    padding-top: 0.4rem;
+    font-size: 16px;
+    text-transform: uppercase;
 }
 
 #postre{
@@ -321,6 +351,17 @@ footer{
 
 .postre__img{
     width: 280px;
+    transition: 0.45s;
+}
+
+.postre__img:hover{
+    transform: scale(1.1);
+}
+
+.postre__text{
+    padding-top: 0.4rem;
+    font-size: 16px;
+    text-transform: uppercase;
 }
 
 #nosotros{
