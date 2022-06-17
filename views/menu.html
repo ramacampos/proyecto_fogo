@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menú - FOGO</title>
     <link rel="shortcut icon" href="../img/logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/index.css">
 </head>
 <body>
@@ -33,87 +34,89 @@
             </ul>
         </nav>
     </header>
-    <section id="entradas">
-        <h3 class="entradas__title">ENTRADAS</h3>
-        <div class="entradas">
-            <div class="entradas__box">
-                <img class="entradas__img" src="../img/provoleta.jpg" alt="Provoleta">
-                <p class="entradas__text">Provoleta</p>
+    <main class="container w-100">
+        <section id="entradas">
+            <h3 class="entradas__title">ENTRADAS</h3>
+            <div class="entradas row justify-content-evenly">
+                <div class="entradas__box col-3">
+                    <img class="entradas__img" src="../img/provoleta.jpg" alt="Provoleta">
+                    <p class="entradas__text">Provoleta</p>
+                </div>
+                <div class="entradas__box col-3">
+                    <img class="entradas__img" src="../img/achuras.jpg" alt="Achuras">
+                    <p class="entradas__text">Bandeja de achuras</p>
+                </div>
+                <div class="entradas__box col-3">
+                    <img class="entradas__img" src="../img/mollejas.jpg" alt="Mollejas">
+                    <p class="entradas__text">Mollejas</p>
+                </div>
+                <div class="entradas__box col-3">
+                    <img class="entradas__img" src="../img/empanadas de carne.jpg" alt="Empanadas">
+                    <p class="entradas__text">Empanadas de carne</p>
+                </div>
             </div>
-            <div class="entradas__box">
-                <img class="entradas__img" src="../img/achuras.jpg" alt="Achuras">
-                <p class="entradas__text">Bandeja de achuras</p>
+        </section>
+        <section id="principales">
+            <h3 class="principales__title">PLATOS PRINCIPALES</h3>
+            <div class="principales row justify-content-evenly">
+                <div class="principales__box col-3">
+                    <img class="principales__img" src="../img/ribs.jpg" alt="Ribs">
+                    <p class="principales__text">Ribs</p>
+                </div>
+                <div class="principales__box col-3">
+                    <img class="principales__img" src="../img/tomahawk.jpg" alt="Tomahawk">
+                    <p class="principales__text">Tomahawk</p>
+                </div>
+                <div class="principales__box col-3">
+                    <img class="principales__img" src="../img/entraña.jpg" alt="Entraña">
+                    <p class="principales__text">Entraña</p>
+                </div>
+                <div class="principales__box col-3">
+                    <img class="principales__img" src="../img/ojo de bife.jpg" alt="Ojo de bife">
+                    <p class="principales__text">Ojo de bife</p>
+                </div>
             </div>
-            <div class="entradas__box">
-                <img class="entradas__img" src="../img/mollejas.jpg" alt="Mollejas">
-                <p class="entradas__text">Mollejas</p>
+            <div class="principales row justify-content-evenly">
+                <div class="principales__box2 col-3">
+                    <img class="principales__img" src="../img/brisket.jpg" alt="Brisket">
+                    <p class="principales__text">Brisket</p>
+                </div>
+                <div class="principales__box2 col-3">
+                    <img class="principales__img" src="../img/lomo a la pimienta.png" alt="Lomo">
+                    <p class="principales__text">Lomo a la pimienta</p>
+                </div>
+                <div class="principales__box2 col-3">
+                    <img class="principales__img" src="../img/vacio.jpg" alt="Vacío">
+                    <p class="principales__text">Vacío</p>
+                </div>
+                <div class="principales__box2 col-3">
+                    <img class="principales__img" src="../img/bife de chorizo.jpg" alt="Bife de chorizo">
+                    <p class="principales__text">Bife de chorizo</p>
+                </div>
             </div>
-            <div class="entradas__box">
-                <img class="entradas__img" src="../img/empanadas de carne.jpg" alt="Empanadas">
-                <p class="entradas__text">Empanadas de carne</p>
+        </section>
+        <section id="postre">
+            <h3 class="postre__title">POSTRE</h3>
+            <div class="postre row justify-content-evenly">
+                <div class="postre__box col-3">
+                    <img class="postre__img" src="../img/flan.jpg" alt="Flan">
+                    <p class="postre__text">Flan</p>
+                </div>
+                <div class="postre__box col-3">
+                    <img class="postre__img" src="../img/creme brulee.jpg" alt="Creme Brulée">
+                    <p class="postre__text">Creme Brulee</p>
+                </div>
+                <div class="postre__box col-3">
+                    <img class="postre__img" src="../img/panqueque con ddl.jpg" alt="Panqueque">
+                    <p class="postre__text">Panqueque</p>
+                </div>
+                <div class="postre__box col-3">
+                    <img class="postre__img" src="../img/rogel.jpg" alt="Rogel">
+                    <p class="postre__text">Rogel</p>
+                </div>
             </div>
-        </div>
-    </section>
-    <section id="principales">
-        <h3 class="principales__title">PLATOS PRINCIPALES</h3>
-        <div class="principales">
-            <div class="principales__box">
-                <img class="principales__img" src="../img/ribs.jpg" alt="Ribs">
-                <p class="principales__text">Ribs</p>
-            </div>
-            <div class="principales__box">
-                <img class="principales__img" src="../img/tomahawk.jpg" alt="Tomahawk">
-                <p class="principales__text">Tomahawk</p>
-            </div>
-            <div class="principales__box">
-                <img class="principales__img" src="../img/entraña.jpg" alt="Entraña">
-                <p class="principales__text">Entraña</p>
-            </div>
-            <div class="principales__box">
-                <img class="principales__img" src="../img/ojo de bife.jpg" alt="Ojo de bife">
-                <p class="principales__text">Ojo de bife</p>
-            </div>
-        </div>
-        <div class="principales">
-            <div class="principales__box2">
-                <img class="principales__img" src="../img/brisket.jpg" alt="Brisket">
-                <p class="principales__text">Brisket</p>
-            </div>
-            <div class="principales__box2">
-                <img class="principales__img" src="../img/lomo a la pimienta.png" alt="Lomo">
-                <p class="principales__text">Lomo a la pimienta</p>
-            </div>
-            <div class="principales__box2">
-                <img class="principales__img" src="../img/vacio.jpg" alt="Vacío">
-                <p class="principales__text">Vacío</p>
-            </div>
-            <div class="principales__box2">
-                <img class="principales__img" src="../img/bife de chorizo.jpg" alt="Bife de chorizo">
-                <p class="principales__text">Bife de chorizo</p>
-            </div>
-        </div>
-    </section>
-    <section id="postre">
-        <h3 class="postre__title">POSTRE</h3>
-        <div class="postre">
-            <div class="postre__box">
-                <img class="postre__img" src="../img/flan.jpg" alt="Flan">
-                <p class="postre__text">Flan</p>
-            </div>
-            <div class="postre__box">
-                <img class="postre__img" src="../img/creme brulee.jpg" alt="Creme Brulée">
-                <p class="postre__text">Creme Brulee</p>
-            </div>
-            <div class="postre__box">
-                <img class="postre__img" src="../img/panqueque con ddl.jpg" alt="Panqueque">
-                <p class="postre__text">Panqueque</p>
-            </div>
-            <div class="postre__box">
-                <img class="postre__img" src="../img/rogel.jpg" alt="Rogel">
-                <p class="postre__text">Rogel</p>
-            </div>
-        </div>
-    </section>
+        </section>
+    </main>
     <footer>
         <ul class="footer">
             <li class="footer__title">FOGO
@@ -129,5 +132,6 @@
             </li>
         </ul>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>

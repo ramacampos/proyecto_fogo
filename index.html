@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FOGO</title>
     <link rel="shortcut icon" href="./img/logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/index.css">
 </head>
 <body class="body__home__grid">
@@ -33,56 +34,50 @@
             </ul>
         </nav>
     </header>
-    <section id="presentation">
-        <div class="parallax">
-            <h1 class="parallax__text">FOGO Restaurante</h1>
-            <h2 class="parallax__text">Calidad Argentina</h2>
-        </div>
-
-    </section>
-    <section id="recomendation">
-        <h3 class="recomendation__title">NUESTROS PLATOS</h3>
-        <h4 class="recomendation__title">Recomendaciones de la casa</h4>
-        <ul class="recomendation">
-            <div class="recomendation__box">
-                <li class="recomendation__item">ENTRADA</li>
-                <img class="recomendation__img" src="./img/provoleta.jpg" alt="provoleta">
+        <section id="presentation">
+            <div class="parallax">
+                <h1 class="parallax__text">FOGO Restaurante</h1>
+                <h2 class="parallax__text">Calidad Argentina</h2>
             </div>
-            <div class="recomendation__box">
-                <li class="recomendation__item">PLATO PRINCIPAL</li>
-                <img class="recomendation__img" src="./img/tomahawk.jpg" alt="tomahawk">
-            </div>
-            <div class="recomendation__box">
-                <li class="recomendation__item">POSTRE</li>
-                <img class="recomendation__img" src="./img/flan.jpg" alt="flan">
-            </div>
-        </ul>
-    </section>
-    <section id="spot">
-        <iframe class="spot__video" width="100%" height="720" src="https://www.youtube.com/embed/lKsEB2X9L4o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </section>
-    <section id="contacto">
-        <h4 class="contacto__title">CONTACTO</h4>
-        <div>
-            <form class="form" action="" method="get">
-                <div class="form__box">
-                    <input class="form__text" type="text" name="Nombre completo" placeholder="Nombre completo" required>
+    <main class="container w-100">
+        </section>
+        <section id="recomendation">
+            <h3 class="recomendation__title">NUESTROS PLATOS</h3>
+            <h4 class="recomendation__title">Recomendaciones de la casa</h4>
+            <ul class="recomendation row justify-content-evenly">
+                <div class="recomendation__box col-4">
+                    <li class="recomendation__item">ENTRADA</li>
+                    <img class="recomendation__img" src="./img/provoleta.jpg" alt="provoleta">
                 </div>
-                <div class="form__box">
-                    <input class="form__text" type="text" name="email" placeholder="Mail" required>
+                <div class="recomendation__box col-4">
+                    <li class="recomendation__item">PLATO PRINCIPAL</li>
+                    <img class="recomendation__img" src="./img/tomahawk.jpg" alt="tomahawk">
                 </div>
-                <div class="form__box">
-                    <input class="form__text" type="text" name="Asunto" placeholder="Asunto" required>
+                <div class="recomendation__box col-4">
+                    <li class="recomendation__item">POSTRE</li>
+                    <img class="recomendation__img" src="./img/flan.jpg" alt="flan">
                 </div>
-                <div class="form__box--message">
-                    <input class="form__text--message" type="text" name="Mensaje" placeholder="Mensaje" required>
-                </div>
-                <div class="form__box">
-                    <input class="form__btn" type="submit" name="ENVIAR">
-                </div>
+            </ul>
+        </section>
+        <section id="spot">
+            <iframe class="spot__video" width="100%" height="720" src="https://www.youtube.com/embed/lKsEB2X9L4o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+        <section id="contacto">
+            <h4 class="contacto__title">CONTACTO</h4>
+            <div>
+            <form class="container w-60">
+                <div class="mb-3 w-60">
+                    <label for="exampleFormControlInput1" class="form-label">Correo electrónico</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
             </form>
-        </div>
-    </section>
+            </div>
+        </section>
+    </main>
     <footer>
         <ul class="footer">
             <li class="footer__title">FOGO
@@ -98,5 +93,6 @@
             </li>
         </ul>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
