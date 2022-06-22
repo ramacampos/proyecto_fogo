@@ -453,6 +453,7 @@ ol, ul{
     margin: 0;
 }
 
+
 #hamburger{
     position: absolute;
     opacity: 0;
@@ -461,6 +462,8 @@ ol, ul{
 .hamburger{
     display: none;
 }
+
+/*
 
 @media screen and (max-width: 1200px) {
 
@@ -528,5 +531,30 @@ ol, ul{
 
     .menu{
         display: none;
+    }
+}
+*/
+
+@media screen and (max-width: 778px) {
+
+    .menu{
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+
+    .footer{
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer__title{
+        padding: 0.5rem;
     }
 }
