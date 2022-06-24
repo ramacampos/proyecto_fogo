@@ -1,0 +1,127 @@
+#entradas{
+    background-color: #6F7D8C;
+    color: white;
+    padding: 3rem 3rem 0rem 3rem;
+
+    .entradas__title{
+        text-align: center;
+        padding-bottom: 3rem;
+        font-size: 26px;
+    }
+
+    .entradas{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        align-items:baseline; 
+
+        .entradas__box{
+            width: 300px;
+            height: 250px;
+            text-align:center;
+
+            .entradas__img{
+                width: 280px;
+                transition: 0.45s;
+            }
+
+            .entradas__img:hover{
+                transform: scale(1.1);
+            }
+
+            .entradas__text{
+                padding-top: 0.4rem;
+                font-size: 16px;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+
+#principales{
+    background-color: #941C2F;
+    color: white;
+    padding: 3rem 3rem 1.5rem 3rem;
+    border-top: 5px solid #171A21;
+    border-bottom: 5px solid #171A21;
+
+    .principales__title{
+        text-align: center;
+        padding-bottom: 3rem;
+        font-size: 26px;
+    }
+
+    .principales{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        align-items: baseline;
+
+        .principales__box{
+            width: 300px;
+            height: 250px;
+            text-align:center;
+        }
+
+        .principales__box2{
+            width: 300px;
+            height: 250px;
+            text-align:center;
+        }
+
+            .principales__img{
+                width: 280px;
+                transition: 0.45s;
+            }
+
+            .principales__img:hover{
+                transform: scale(1.1);
+            }
+
+            .principales__text{
+                padding-top: 0.4rem;
+                font-size: 16px;
+                text-transform: uppercase;
+            }
+    }
+}
+
+#postre{
+    background-color: #6F7D8C;
+    color: white;
+    padding: 3rem 3rem 1rem 3rem;
+
+    .postre__title{
+        text-align: center;
+        padding-bottom: 3rem;
+        font-size: 26px;
+    }
+
+    .postre{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        align-items:baseline; 
+
+        .postre__box{
+            width: 300px;
+            height: 250px;
+            text-align:center;
+
+            .postre__img{
+                width: 280px;
+                transition: 0.45s;
+            }
+
+            .postre__img:hover{
+                transform: scale(1.1);
+            }
+
+            .postre__text{
+                padding-top: 0.4rem;
+                font-size: 16px;
+                text-transform: uppercase;
+            }
+        }
+    }
+}

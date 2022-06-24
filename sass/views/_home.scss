@@ -1,0 +1,94 @@
+#presentation{
+    background-color: black;
+    color: white;
+}
+
+.parallax{
+    background-image: url(../img/brasas.jpeg);
+    height: 850px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+
+    .parallax__text{
+        text-align: center;
+        font-weight: 200;
+        font-size: 46px;
+        padding-top: 270px;
+    }
+}
+
+#recomendation{
+    background-color: #6F7D8C;
+    color: white;
+    border-top: 5px solid #171A21;
+    border-bottom: 5px solid #171A21;
+    padding: 2rem 0rem;
+
+
+    .recomendation__title{
+        text-align: center;
+        padding-bottom: 0.3rem;
+    }
+
+    .recomendation{
+        text-decoration: none;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-top: 1rem;
+    
+
+        .recomendation__box{
+            width: 330px;
+            height: 330px;
+        }
+
+        .recomendation__item{
+            list-style-type:none;
+            text-align: center;
+            padding-bottom: 0.5rem;
+            font-size: 18px;
+        }
+
+        .recomendation__img{
+            width: 100%;
+            transition: 0.4s;
+        }
+
+        .recomendation__img:hover{
+            transform: scale(1.07);
+        }
+    }
+}
+
+
+
+#spot{
+    background-color: black;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    width: 100%;
+}
+
+#contacto{
+    background-color: #941C2F;
+    color: white;
+    border-top: 5px solid #171A21;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+
+    .contacto__title{
+    padding-bottom: 10px;
+    }
+}
+
+.container{
+    width: 100%;
+}

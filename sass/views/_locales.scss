@@ -1,0 +1,42 @@
+#locales{
+    color: white;
+    background-color: #6F7D8C;
+    padding: 2rem 4rem 3rem 4rem;
+}
+
+#locales2{
+    background-color: #941C2F;
+    border-top: 5px solid #171A21;
+    color: white;
+    padding: 2rem 4rem 3rem 4rem;
+}
+
+    .locales__text{
+        text-align: center;
+        font-size: 24px;
+        padding-bottom: 2rem;
+    }
+
+    .locales{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        align-items: center;
+
+        .locales__box__img{
+            width: 800px;
+        
+
+            .locales__img{
+                width: 100%;
+            }
+        }
+
+        .locales__box__mapa{
+            width: 300px;
+        }
+
+        .locales__mapa{
+            width: 100%;
+        }
+    }

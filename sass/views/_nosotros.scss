@@ -1,0 +1,31 @@
+#nosotros{
+    background-color: #6F7D8C;
+    color: white;
+    display: flex;
+    justify-content: center;
+
+    .nosotros__box{
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        width: 900px;
+
+        .nosotros__img{
+            width: 100%;
+        }
+    }
+}
+
+#descripcion{
+    background-color: #941C2F;
+    color: white;
+    border-top: 5px solid #171A21;
+    border-bottom: 5px solid #171A21;
+
+    .description__box{
+        text-align: center;
+        padding-left: 60px;
+        padding-right: 60px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
