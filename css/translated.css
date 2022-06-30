@@ -21,7 +21,7 @@ header {
   flex-flow: row nowrap;
   justify-content: space-around;
   align-items: center;
-  position: relative; }
+  gap: 2rem; }
 
 .menu__logo {
   width: 90px; }
@@ -59,7 +59,16 @@ header {
   .menu {
     display: flex;
     flex-flow: column nowrap;
-    justify-content: center; } }
+    justify-content: center;
+    align-items: center;
+    gap: 0; }
+    .menu .menu__link {
+      font-size: 18px;
+      padding: 0.3rem 0.5rem; }
+    .menu .menu__link:hover {
+      background-color: none; }
+    .menu .menu__link--active {
+      background-color: none; } }
 
 footer {
   background-color: #171A21;
@@ -70,7 +79,8 @@ footer {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
-  align-items: flex-start; }
+  align-items: flex-start;
+  gap: 0; }
   .footer .footer__title {
     list-style-type: none;
     text-align: center; }
@@ -82,7 +92,8 @@ footer {
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
-    align-items: center; }
+    align-items: center;
+    gap: 0; }
   .footer__title {
     padding: 0.5rem; } }
 
@@ -115,11 +126,12 @@ footer {
     text-align: center;
     padding-bottom: 0.3rem; }
   #recomendation .recomendation {
-    text-decoration: none;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
     align-items: center;
+    gap: 0;
+    text-decoration: none;
     padding-top: 1rem; }
     #recomendation .recomendation .recomendation__box {
       width: 330px;
@@ -136,10 +148,12 @@ footer {
       transform: scale(1.07); }
 
 #spot {
-  background-color: black;
   display: flex;
   flex-flow: row nowrap;
   justify-content: center;
+  align-items: center;
+  gap: 0;
+  background-color: black;
   width: 100%; }
 
 #contacto {
@@ -197,11 +211,7 @@ footer {
     flex-flow: row wrap;
     justify-content: space-evenly;
     align-items: baseline; }
-    #principales .principales .principales__box {
-      width: 300px;
-      height: 250px;
-      text-align: center; }
-    #principales .principales .principales__box2 {
+    #principales .principales .principales__box, #principales .principales .principales__box2 {
       width: 300px;
       height: 250px;
       text-align: center; }
@@ -323,5 +333,5 @@ footer {
       width: 100%; }
   .locales .locales__box__mapa {
     width: 300px; }
-  .locales .locales__mapa {
-    width: 100%; }
+    .locales .locales__box__mapa .locales__mapa {
+      width: 100%; }

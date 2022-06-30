@@ -1,11 +1,7 @@
 header{
     background-color: #171A21;
     padding: 1rem;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-around;
-    align-items: center;
-    position: relative;
+    @include flex(row nowrap, space-around, center, 2rem)
 }
 
 .menu__logo{
@@ -55,9 +51,20 @@ header{
 @media screen and (max-width: 778px) {
 
     .menu{
-        display: flex;
-        flex-flow: column nowrap;
-        justify-content: center;
-    }
+        @include flex (column nowrap, center, center, 0);
+    
+        .menu__link{
+            font-size: 18px;
+            padding: 0.3rem 0.5rem;
 
+        }
+
+        .menu__link:hover{
+            background-color: none;
+        }
+
+        .menu__link--active{
+            background-color: none;
+        }
+    }
 }

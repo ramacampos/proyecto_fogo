@@ -64,9 +64,7 @@
         }
 
         .principales__box2{
-            width: 300px;
-            height: 250px;
-            text-align:center;
+            @extend .principales__box;
         }
 
             .principales__img{

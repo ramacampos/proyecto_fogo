@@ -5,10 +5,7 @@ footer{
 }
 
 .footer{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    align-items: flex-start;
+    @include flex (row wrap, space-around, flex-start, 0);
 
         .footer__title{
         list-style-type: none;
@@ -23,10 +20,7 @@ footer{
 @media screen and (max-width: 576px) {
 
     .footer{
-        display: flex;
-        flex-flow: column nowrap;
-        justify-content: center;
-        align-items: center;
+        @include flex (column nowrap, center, center);
     }
 
     .footer__title{

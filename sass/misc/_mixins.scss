@@ -1,0 +1,7 @@
+@mixin flex($flow: row nowrap, $jus: space-around, $alg: center, $gap: 0 ) {
+    display: flex;
+    flex-flow: $flow;
+    justify-content: $jus;
+    align-items: $alg;
+    gap: $gap;    
+}
