@@ -15,25 +15,22 @@
 </head>
 <body>
     <header>
-        <img class="menu__logo" src="../img/logo.png" alt="logo fogo">
-        <nav>
-            <ul class="menu">
-                <li class="menu__item">
-                    <a class="menu__link" href="../index.html">Home</a>
-                </li>
-                <li class="menu__item">
-                    <a class="menu__link" href="./menu.html">Menú</a>
-                </li>
-                <li class="menu__item">
-                    <a class="menu__link" href="./nosotros.html">Nosotros</a>
-                </li>
-                <li class="menu__item">
-                    <a class="menu__link menu__link--active" href="./reservas.html">Reservas</a>
-                </li>
-                <li class="menu__item">
-                    <a class="menu__link" href="./locales.html">Locales</a>
-                </li>
-            </ul>
+        <nav class="navbar navbar-expand-lg" style="background-color: #171A21">
+            <div class="container-fluid">
+                <img class="menu__logo navbar-brand" src="../img/logo.png" alt="logo fogo">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                      <a class="nav-link" href="../index.html">Home</a>
+                      <a class="nav-link" href="./menu.html">Menú</a>
+                      <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                      <a class="nav-link active" href="./reservas.html">Reservas</a>
+                      <a class="nav-link" href="./locales.html">Locales</a>
+                    </div>
+                </div>
+            </div>
         </nav>
         <button class="hamburger hamburger--spring" type="button">
             <span class="hamburger-box">

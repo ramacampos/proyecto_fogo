@@ -9,31 +9,27 @@
     <title>FOGO</title>
     <link rel="shortcut icon" href="./img/logo.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/hamburguers.css">
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/translated.css">
 </head>
 <body>
     <header class="header">
-        <img class="menu__logo" src="./img/logo.png" alt="logo fogo">
-        <nav>
-            <ul class="menu">
-                <li class="menu__item">
-                    <a class="menu__link menu__link--active" href="./index.html">Home</a>
-                </li>
-                <li class="menu__item">
-                    <a class="menu__link" href="./views/menu.html">Menú</a>
-                </li>
-                <li class="menu__item">
-                    <a class="menu__link" href="./views/nosotros.html">Nosotros</a>
-                </li>
-                <li class="menu__item">
-                    <a class="menu__link" href="./views/reservas.html">Reservas</a>
-                </li>
-                <li class="menu__item">
-                    <a class="menu__link" href="./views/locales.html">Locales</a>
-                </li>
-            </ul>
+        <nav class="navbar navbar-expand-lg" style="background-color: #171A21">
+            <div class="container-fluid">
+                <img class="menu__logo navbar-brand" src="./img/logo.png" alt="logo fogo">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                      <a class="nav-link active" href="./index.html">Home</a>
+                      <a class="nav-link" href="./views/menu.html">Menú</a>
+                      <a class="nav-link" href="./views/nosotros.html">Nosotros</a>
+                      <a class="nav-link" href="./views/reservas.html">Reservas</a>
+                      <a class="nav-link" href="./views/locales.html">Locales</a>
+                    </div>
+                </div>
+            </div>
         </nav>
         <button class="hamburger hamburger--spring" type="button">
             <span class="hamburger-box">
