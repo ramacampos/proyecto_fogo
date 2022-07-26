@@ -32,37 +32,42 @@
                 </div>
             </div>
         </nav>
-        <button class="hamburger hamburger--spring" type="button">
-            <span class="hamburger-box">
-            <span class="hamburger-inner"></span>
-            </span>
-        </button>
-        <input type="checkbox" name="hamburger" id="hamburger">
     </header>
     <section id="reserva">
-        <form class="reserva__form" action="" method="get">
-            <div class="reserva__box">
-                <input class="reserva__form__text" type="text" name="Nombre completo" placeholder="Nombre completo" required>
+        <form class="reserva__form container w-60">
+            <div class="mb-3 w-60">
+                <label for="name" class="form-label">Nombre completo</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Juan Doe">
             </div>
-            <div class="reserva__box">
-                <input class="reserva__form__text" type="text" name="email" placeholder="Mail" required>
+            <div class="mb-3">
+                <label for="mail" class="form-label">Mail</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="ejemplo@ejemplo.com">
             </div>
-            <div class="reserva__box">
-                <input class="reserva__form__text" type="number" name="Celular" placeholder="Celular" required>
+            <div class="mb-3">
+                <label for="celular" class="form-label">Celular</label>
+                <input type="tel" class="form-control" id="exampleFormControlInput1" placeholder="11 1111-1111">
             </div>
-            <div class="reserva__box">
-                <input class="reserva__form__text" type="text" name="Local" placeholder="Local" required>
+            <div class="mb-3">
+                <label for="Local">Local</label>
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Locales</option>
+                    <option value="1">Av. Presidente Figueroa Alcorta 3351</option>
+                    <option value="2">Av. Del Libertador 1031</option>
+                </select>
             </div>
-            <div class="reserva__box">
-                <input class="reserva__form__text" type="number" name="Cantidad" placeholder="Cantidad de personas" required>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Cantidad de personas</label>
+                <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="Cantidad de personas">
             </div>
-            <div class="reserva__box">
-                <input class="reserva__form__text" type="date" name="Fecha" required>
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Día de reserva</label>
+                <input type="date" class="form-control" id="exampleFormControlInput1" placeholder="dd/mm/aaaa">
             </div>
-                <input class="reserva__form__text" type="datetime" name="Hora" placeholder="Hora" required>
-            <div class="reserva__box">
-                <input class="reserva__form__btn" type="submit" name="Enviar">
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Hora</label>
+                <input type="time" class="form-control" id="exampleFormControlInput1" placeholder="Hora">
             </div>
+            <button type="sumbit" class="btn btn-dark">ENVIAR</button>
         </form>
     </section>
     <footer>

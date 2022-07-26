@@ -4,11 +4,19 @@ header{
     @include flex(row nowrap, space-around, center, 2rem)
 }
 
-span{
+.collapse {
     color: white;
 }
 
-button.navbar-toggler{
+.navbar-collapse{
+    color: white;
+}
+
+button{
+    color: white;
+}
+
+span{
     color: white;
 }
 
@@ -44,16 +52,15 @@ button.navbar-toggler{
     background-color: rgba(255, 255, 255, 0.89);
     border-radius: 5px;
     color: white;
+}        
+
+.navbar-toggler{
+    color: white;
 }
 
-#hamburger{
-    position: absolute;
-    opacity: 0;
+.navbar-toggler-icon{
+    color: white;
 }
-
-.hamburger{
-    display: none;
-}                    
 
 @media screen and (max-width: 778px) {
 
